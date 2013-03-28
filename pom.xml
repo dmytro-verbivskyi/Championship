@@ -7,7 +7,7 @@
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Championship</name>
+    <name>championship</name>
     <url>http://maven.apache.org</url>
 
     <properties>
@@ -24,7 +24,7 @@
     </dependencies>
 
     <build>
-        <finalName>Championship</finalName>
+        <finalName>championship</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
