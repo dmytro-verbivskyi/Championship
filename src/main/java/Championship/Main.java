@@ -24,9 +24,9 @@ public class Main {
         t.performAllMatches();
 
         System.out.println("===== matches' results =====");
-        //t.displayAll();
+        t.displayAll();
 
         System.out.println("========= results ==========");
-        //t.listCompetitors();
+        t.listCompetitors();
     }
 }

@@ -5,8 +5,8 @@ public class Challenger implements Comparable<Challenger> {
     private int score;
 
     Challenger(String t) {
-        title = t;
-        score = 0;
+        setTitle(t);
+        setScore(0);
     }
 
     @Override
@@ -18,9 +18,21 @@ public class Challenger implements Comparable<Challenger> {
         return title;
     }
 
+
+    public void setTitle(String t) {
+        title = t;
+    }
+
+
     public int getScore() {
         return score;
     }
+
+
+    public void setScore(int s) {
+        score = s;
+    }
+
 
     public void win() {
         score += 2;
