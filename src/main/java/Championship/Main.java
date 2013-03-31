@@ -33,7 +33,7 @@ public class Main {
             }
         }
         System.out.println("========== result ==========");
-        Collections.sort(list, new ChallengerComparator());
+        //Collections.sort(list, new ChallengerComparator());
 
         for (Challenger ch : list) {
             System.out.println(ch);
